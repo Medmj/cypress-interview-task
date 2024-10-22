@@ -7,8 +7,8 @@ Setup:
 
 Clone the repo:
 
-- git clone <repository-url>
-- cd <repository-directory>
+- git clone https://the-internet.herokuapp.com/
+- cd cypress-interview-task
 
 Install dependencies:
 
@@ -25,14 +25,14 @@ This opens the Cypress Test Runner. You can also run tests in headless mode with
 
 The tests are in the cypress/e2e/components folder:
 
-[text](cypress/e2e/components/brokenImages.cy.ts)
-[text](cypress/e2e/components/dropdown.cy.ts)
-[text](cypress/e2e/components/dynamicLoading.cy.ts)
-[text](cypress/e2e/components/redirectLink.cy.ts)
+[brokenImages](cypress/e2e/components/brokenImages.cy.ts)
+[dropdown](cypress/e2e/components/dropdown.cy.ts)
+[dynamicLoading](cypress/e2e/components/dynamicLoading.cy.ts)
+[redirectLink](cypress/e2e/components/redirectLink.cy.ts)
 
 The page objects and definitions are in the cypress/pages folder:
 
-[text](cypress/pages/brokenImagesPage.ts)
-[text](cypress/pages/dropdownPage.ts)
-[text](cypress/pages/dynamicLoadingPage.ts)
-[text](cypress/pages/redirectLinkPage.ts)
+[brokenImagesPage](cypress/pages/brokenImagesPage.ts)
+[dropdownPage](cypress/pages/dropdownPage.ts)
+[dynamicLoadingPage](cypress/pages/dynamicLoadingPage.ts)
+[redirectLinkPage](cypress/pages/redirectLinkPage.ts)
